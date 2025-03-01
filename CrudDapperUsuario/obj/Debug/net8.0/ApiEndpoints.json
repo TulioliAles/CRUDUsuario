@@ -1,0 +1,12 @@
+[
+  {
+    "ContainingType": "CrudDapperUsuario.Controllers.UsuarioController",
+    "Method": "BuscarUsuarios",
+    "RelativePath": "api/Usuario",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
