@@ -1,4 +1,5 @@
-﻿using CrudDapperUsuario.Services;
+﻿using CrudDapperUsuario.DTO;
+using CrudDapperUsuario.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CrudDapperUsuario.Controllers
@@ -22,6 +23,58 @@ namespace CrudDapperUsuario.Controllers
             if (usuarios.Status == false)
             {
                 return NotFound(usuarios);
+            }
+
+            return Ok(usuarios);
+        }
+
+        [HttpGet("{usuarioId}")]
+        public async Task<IActionResult> BuscarUsuarioById (int usuarioId)
+        {
+            var usuario = await _usuarioInterface.BuscaUsuarioById(usuarioId);
+
+            if (usuario.Status == false)
+            {
+                return NotFound(usuario);
+            }
+
+            return Ok(usuario);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> CriarUsuario(UsuarioCriarDto usuarioCriarDto)
+        {
+            var usuarios = await _usuarioInterface.CriarUsuario(usuarioCriarDto);
+
+            if (usuarios.Status == false)
+            {
+                return BadRequest(usuarios);
+            }
+
+            return Ok(usuarios);
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> EditarUsuario(UsuarioEditarDto usuarioEditarDto)
+        {
+            var usuarios = await _usuarioInterface.EditarUsuario(usuarioEditarDto);
+
+            if (usuarios.Status == false)
+            {
+                return BadRequest(usuarios);
+            }
+
+            return Ok(usuarios);
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> RemoverrUsuario(int usuarioId)
+        {
+            var usuarios = await _usuarioInterface.RemoverUsuario(usuarioId);
+
+            if (usuarios.Status == false)
+            {
+                return BadRequest(usuarios);
             }
 
             return Ok(usuarios);
