@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\219747\\projetos\\CrudDapperUsuario\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B6D3A882-AFF9-4A59-B8F3-4FD8126EECA9}|CrudDapperUsuario\\CrudDapperUsuario.csproj|c:\\users\\219747\\projetos\\cruddapperusuario\\cruddapperusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6D3A882-AFF9-4A59-B8F3-4FD8126EECA9}|CrudDapperUsuario\\CrudDapperUsuario.csproj|solutionrelative:cruddapperusuario\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B6D3A882-AFF9-4A59-B8F3-4FD8126EECA9}|CrudDapperUsuario\\CrudDapperUsuario.csproj|c:\\users\\219747\\projetos\\cruddapperusuario\\cruddapperusuario\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B6D3A882-AFF9-4A59-B8F3-4FD8126EECA9}|CrudDapperUsuario\\CrudDapperUsuario.csproj|solutionrelative:cruddapperusuario\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,24 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\219747\\projetos\\CrudDapperUsuario\\CrudDapperUsuario\\Program.cs",
+              "RelativeDocumentMoniker": "CrudDapperUsuario\\Program.cs",
+              "ToolTip": "C:\\Users\\219747\\projetos\\CrudDapperUsuario\\CrudDapperUsuario\\Program.cs",
+              "RelativeToolTip": "CrudDapperUsuario\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T23:28:33.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UsuarioController.cs",
               "DocumentMoniker": "C:\\Users\\219747\\projetos\\CrudDapperUsuario\\CrudDapperUsuario\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "CrudDapperUsuario\\Controllers\\UsuarioController.cs",
               "ToolTip": "C:\\Users\\219747\\projetos\\CrudDapperUsuario\\CrudDapperUsuario\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "CrudDapperUsuario\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEgAAABNAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwEgAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-25T23:23:36.831Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "UsuarioService.cs",
               "DocumentMoniker": "C:\\Users\\219747\\projetos\\CrudDapperUsuario\\CrudDapperUsuario\\Services\\UsuarioService.cs",
               "RelativeDocumentMoniker": "CrudDapperUsuario\\Services\\UsuarioService.cs",
@@ -43,8 +68,7 @@
               "RelativeToolTip": "CrudDapperUsuario\\Services\\UsuarioService.cs",
               "ViewState": "AgIAAHEAAAAAAAAAAAAUwIwAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T23:22:16.388Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-25T23:22:16.388Z"
             }
           ]
         }
