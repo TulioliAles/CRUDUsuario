@@ -41,9 +41,9 @@ namespace CrudDapperUsuario.Services
             return response;
         }
 
-        public async Task<ResponseModel<UsuarioListarDto>> BuscaUsuarioById(int usuarioId)
+        public async Task<ResponseModel<Usuario>> BuscaUsuarioById(int usuarioId)
         {
-            ResponseModel<UsuarioListarDto> response = new ResponseModel<UsuarioListarDto>();
+            ResponseModel<Usuario> response = new ResponseModel<Usuario>();
 
             using (var connection = new SqlConnection(_configuration.GetConnectionString("DefaultConnection")))
             {
@@ -56,9 +56,7 @@ namespace CrudDapperUsuario.Services
                     return response;
                 }
 
-                var usuarioMapper = _mapper.Map<UsuarioListarDto>(usuarioBanco);
-
-                response.Dados = usuarioMapper;
+                response.Dados = usuarioBanco;
                 response.Mensagem = "Usuário localizado com sucesso!";
             }
 
